@@ -14,8 +14,8 @@ function generateEngineerCards(engineers) {
                     <span class="card-title">${engineers[i].name}</span>
                     <ul>
                         <li class="valign-wrapper"><i class="material-icons">assignment_ind</i> <span class="boldHelp">Employee ID:</span> ${engineers[i].id}</li>
-                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> ${engineers[i].email}</li>
-                        <li class="valign-wrapper"><i class="fab fa-github"></i> <span class="boldHelp">Github User:</span> ${engineers[i].github}</li>
+                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> <a href="mailto:${engineers[i].email}">${engineers[i].email}</a></li>
+                        <li class="valign-wrapper"><i class="fab fa-github"></i> <span class="boldHelp">Github User:</span> <a href="https://github.com/${engineers[i].github}">${engineers[i].github}</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function generateInternCards(interns) {
                     <span class="card-title">${interns[i].name}</span>
                     <ul>
                         <li class="valign-wrapper"><i class="material-icons">assignment_ind</i> <span class="boldHelp">Employee ID:</span> ${interns[i].id}</li>
-                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> ${interns[i].email}</li>
+                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> <a href="mailto:${interns[i].email}">${interns[i].email}</a></li>
                         <li class="valign-wrapper"><i class="material-icons">school</i> <span class="boldHelp">School:</span> ${interns[i].school}</li>
                     </ul>
                 </div>
@@ -92,14 +92,14 @@ function generateMarkdown(employees) {
         
         <h3 class="center-align blue lighten-4">The Team Manager</h3>
     
-        <div class="row">
+        <div class="row manageRow">
             <div class="col s12 m4 offset-m4">
               <div class="card light-blue darken-3">
                 <div class="card-content white-text">
                     <span class="card-title">${manager.name}</span>
                     <ul>
                         <li class="valign-wrapper"><i class="material-icons">assignment_ind</i> <span class="boldHelp">Employee ID:</span> ${manager.id}</li>
-                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> ${manager.email}</li>
+                        <li class="valign-wrapper"><i class="material-icons">email</i> <span class="boldHelp">Email:</span> <a href="mailto:${manager.email}">${manager.email}</a></li>
                         <li class="valign-wrapper"><i class="material-icons">local_phone</i> <span class="boldHelp">Office Number:</span> ${manager.officeNumber}</li>
                     </ul>
                 </div>
