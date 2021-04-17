@@ -135,8 +135,16 @@ function init() {
     .catch((err) => console.error(err))
 }
 
+function writeToFile(fileName, content) {
+    
+    fs.writeFile(fileName, content, (err) =>
+        err ? console.log(error) : console.log('Team Profile created!'))
+}
+
 function generateFile() {
-    generateMarkdown(employees);
+    const content = generateMarkdown(employees);
+
+    writeToFile('./dist/index.html',content);
 }
 
 // .then((content) => writeToFile('index.html',content))
