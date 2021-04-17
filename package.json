@@ -1,0 +1,23 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "Build an application that generates an HTML webpage with summaries for each person on a software engineering team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleyaggie/TeamProfileGenerator.git"
+  },
+  "author": "Ashley Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleyaggie/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/ashleyaggie/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3"
+  }
+}
