@@ -4,7 +4,7 @@ h1 {
     color: white;
 }
 
-h2 {
+h3 {
     margin: 15px 20% 10px 20%;
     border-style: solid;
     padding: 5px;
@@ -12,7 +12,9 @@ h2 {
 
 body {
     background: rgb(28,28,106);
-    background: linear-gradient(180deg, rgba(28,28,106,1) 18%, rgba(30,141,163,1) 100%);
+    background: linear-gradient(rgba(28,28,106,1) 18%, rgba(30,141,163,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .row {
@@ -20,14 +22,19 @@ body {
 }
 
 .card {
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
-footer {
-    background: rgb(28,28,106);
-    background: linear-gradient(180deg, rgba(28,28,106,1) 18%, rgba(30,141,163,1) 100%);
+li i {
+    margin-right: 3px;
 }
 
 .fa-github {
     font-size: 24px;
+}
+
+.boldHelp {
+    color: rgb(28,28,106);
+    font-weight: bold;
+    padding-right: 5px;
 }
