@@ -17,8 +17,22 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(28,28,106);
+}
+
 .row {
     margin-bottom: 0;
+    margin-left: 25%;
+}
+
+.manageRow {
+    margin-left: 0;
 }
 
 .card {
