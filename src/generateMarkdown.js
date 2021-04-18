@@ -51,8 +51,6 @@ function generateMarkdown(employees) {
     
     for (let i = 0; i < employees.length; i++) {
 
-        console.log('--------');
-        console.log(employees[i]);
         var emp = employees[i];
         var role = emp.getRole();
         if (role === 'Engineer') {
@@ -61,11 +59,6 @@ function generateMarkdown(employees) {
             interns.push(employees[i])
         }
     }
-
-    console.log('--Engineers--');
-    console.log(engineers);
-    console.log('--Interns--');
-    console.log(interns);
 
     let manager = employees[0];
 
