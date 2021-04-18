@@ -26,6 +26,8 @@ Unable to be deployed.
 
 [Link to video demonstration](https://drive.google.com/file/d/1dm17YhVTJs1on8KHUR1b8P7QOSK03mH9/view)
 
+[Link to sample HTML page](./dist/index-sample.html)
+
 Example picture:
 
 ![Picture of example profile](./assets/images/generatedProfile.png)
