@@ -42,7 +42,9 @@ WHEN I click on an email address in the HTML
 
 THEN my default email program opens and populates the TO field of the email with the address
 
-    * Used an anchor tag linked to mailto: and email variable to allow it to be clicked on and open in the local email application
+    * Used an anchor tag linked to mailto: and email variable
+    
+    * Allows it to be clicked on and open in the local email application
 
 WHEN I click on the GitHub username
 
@@ -60,7 +62,7 @@ WHEN I enter the team manager’s name, employee ID, email address, and office n
 
 THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
 
-    * After the manager's prompt, it runs a function prompting the user whether they want to add another team member
+    * After the manager's prompt, it runs a function prompting the user if they want to add another team member
 
     * Runs another function depending on the response
 
@@ -80,7 +82,9 @@ WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
 
-    * When choosing I'm done adding team members, the application runs a function to generate the HTML and write the file.
+    * When choosing I'm done adding team members, the application runs a function
+    
+    * The function generates the HTML and writes the file.
 
 ## Installation
 
