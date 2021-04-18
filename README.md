@@ -16,13 +16,15 @@
 
 ## Description
 
-In this assignment, we were tasked with creating an application in which the user answers multiple questions and the answers are then used to populate a README.md file. This is the first time I've used a Table of Contents, and honestly prior to this I forgot you could make one!
+In this assignment, we were tasked with creating an application in which the user answers multiple prompts for information and depending on the choices they make, they can enter as many of a certain kind of information as they wish. The information the user provides is then used to create an HTML page displaying a team profile filled out with that information.
 
-This was an interesting test in seeing how far the capabilities of a Markdown can go, and how using different functions and JavaScript files work together to create a cleaner application. I originally was just working in the index.js until I found the generateMarkdown.js and at first, I got really tripped up by it. After I figured out how to make the prompts from Inquirer flow correctly and utilize the generateMarkdown functions, I felt a lot better about it. I did wind up changing some arguments in the functions, because I felt they flowed better with the process I wrote.
+I struggled with figuring out how to connect the inquirer prompts the most on this one. I wound up referencing from other github users that had done the assignment in the past to see how they achieved it. It seems using too many .then is not your friend! Once I had that figured out, the next challenge for me was figuring out how to access the information I needed from the array of objects I had created. After doing some research on keys, I figured out how to do so. It was definitely a challenge, though.
+
+Another one of the difficult things for me is testing these sort of applications. Repeatedly putting in so much information to see if one little thing worked or didn't is a pain. I think if I had more time, I would figure out a way to tell the application that after a certain number of cards, it needs to make a new row. It works as it is now, but it could be better.
 
 Unable to be deployed.
 
-[Link to video demonstration](pending)
+[Link to video demonstration](https://drive.google.com/file/d/1dm17YhVTJs1on8KHUR1b8P7QOSK03mH9/view)
 
 Example picture:
 
